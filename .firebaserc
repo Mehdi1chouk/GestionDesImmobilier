@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "project2-16c61": {
+      "hosting": {
+        "project2": [
+          "project2-16c61"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "project2-16c61"
+  }
+}

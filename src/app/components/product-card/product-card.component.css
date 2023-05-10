@@ -1,0 +1,17 @@
+/*.example-card {
+    max-width: 450px;
+    margin-bottom: 8px;
+    right: -1000px;
+    left: 933px;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: ellipsis;
+    word-wrap: break-word;
+    justify-content: space-around;
+    margin: 5px;
+    margin-left: -200px;
+    margin-right: 50px;
+    flex-direction: column;
+    display: flex;
+    padding: inherit;
+}*/

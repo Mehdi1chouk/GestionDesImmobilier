@@ -1,0 +1,203 @@
+        .picture {
+            /*right: -450px;
+    */
+            left: 620px;
+            position: relative;
+            width: 800px;
+            height: auto;
+            float: left;
+            background-color: #00ff00;
+            padding: 0px;
+            overflow: hidden;
+            border-radius: 80px;
+            -webkit-border-radius: 80px;
+            -moz-border-radius: 80px;
+            -ms-border-radius: 80px;
+            -o-border-radius: 80px;
+            margin: 55px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .list-group-item {
+            font-weight: 500;
+            font-size: 20px;
+            left: -890px;
+            right: 150px;
+            position: relative;
+            bottom: -100px;
+            border: #bcb3cb;
+            background-color: rgb(229, 231, 231);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 80px;
+            -webkit-border-radius: 80px;
+            -moz-border-radius: 80px;
+            -ms-border-radius: 80px;
+            -o-border-radius: 80px;
+            display: flex;
+            width: 600px;
+        }
+        
+        .second_li {
+            font-weight: 500;
+            font-size: 20px;
+            left: -890px;
+            right: 150px;
+            position: relative;
+            bottom: -100px;
+            border: #bcb3cb;
+            background-color: rgb(203, 243, 243);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 80px;
+            -webkit-border-radius: 80px;
+            -moz-border-radius: 80px;
+            -ms-border-radius: 80px;
+            -o-border-radius: 80px;
+            display: flex;
+            width: 600px;
+        }
+        
+        .location {
+            font-weight: 500;
+            font-size: 20px;
+            left: 100px;
+            right: 1500px;
+            bottom: -3px;
+            display: flex;
+            position: relative;
+        }
+        
+        .date {
+            font-weight: 500;
+            font-size: 20px;
+            left: 60px;
+            right: 1500px;
+            bottom: -3px;
+            display: flex;
+            position: relative;
+        }
+        
+        .space {
+            font-weight: 500;
+            font-size: 20px;
+            left: 120px;
+            right: 1500px;
+            bottom: -3px;
+            display: flex;
+            position: relative;
+        }
+        
+        .price {
+            font-weight: 500;
+            font-size: 20px;
+            left: 130px;
+            right: 1500px;
+            bottom: -3px;
+            display: flex;
+            position: relative;
+        }
+        
+        .info {
+            font-weight: 500;
+            font-size: 20px;
+            left: -880px;
+            right: 200px;
+            bottom: -150px;
+            display: flex;
+            position: relative;
+            padding: 3px;
+            margin: 10px;
+        }
+        
+        .contact {
+            font-weight: 500;
+            font-size: 20px;
+            left: -890px;
+            right: 150px;
+            position: relative;
+            bottom: -100px;
+            border: #bcb3cb;
+            background-color: rgb(203, 243, 243);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 80px;
+            -webkit-border-radius: 80px;
+            -moz-border-radius: 80px;
+            -ms-border-radius: 80px;
+            -o-border-radius: 80px;
+            display: flex;
+        }
+        
+        .logo_phone {
+            font-weight: 500;
+            font-size: 20px;
+            left: 420px;
+            right: 200px;
+            position: relative;
+            display: flex;
+        }
+        
+        .logo_message {
+            font-weight: 500;
+            font-size: 20px;
+            left: 440px;
+            right: 200px;
+            position: relative;
+            display: flex;
+        }
+        
+        .logo_share {
+            font-weight: 500;
+            font-size: 20px;
+            left: 500px;
+            right: 200px;
+            position: relative;
+            display: flex;
+        }
+        
+        .list_contact {
+            left: 1700px;
+            right: 300px;
+            position: relative;
+            bottom: 120px;
+            width: 650px;
+        }
+        
+        .aaa {
+            position: relative;
+            display: flex;
+            left: 1700px;
+            right: 300px;
+        }
+        
+        .category {
+            font-weight: 500;
+            font-size: 20px;
+            left: 100px;
+            right: 1500px;
+            bottom: -3px;
+            display: flex;
+            position: relative;
+        }
+        
+        .type {
+            font-weight: 500;
+            font-size: 20px;
+            left: 130px;
+            right: 1500px;
+            bottom: -3px;
+            display: flex;
+            position: relative;
+        }
+        
+        .phone_number {
+            position: relative;
+            right: 300px;
+        }
+        
+        #pho {
+            position: relative;
+            right: 100px;
+        }

@@ -1,0 +1,85 @@
+.close-icon {
+    position: relative;
+    top: -23px;
+    right: -460px;
+}
+
+.input_title {
+    padding: 15px;
+    font-size: 20px;
+    position: relative;
+    right: 25px;
+}
+
+.city {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.city_flag {
+    width: 30px;
+    position: relative;
+    left: -5px;
+    /*border-right: 1px solid black;*/
+}
+
+#name_city {
+    width: 300px;
+    /*border: unset;*/
+}
+
+.scroll {
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 10px;
+    margin: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.flag {
+    padding: 5px;
+}
+
+.description {
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    right: 20px;
+}
+
+#add-description {
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+    display: flex;
+    right: -20px;
+    width: 300px;
+}
+
+.btn {
+    margin: 5px;
+    position: relative;
+    right: 2px;
+}
+
+.img {
+    /*padding: 10px;*/
+    position: relative;
+    display: flex;
+    right: 10px;
+}
+
+.pop-up {
+    height: 700px;
+    width: 500px;
+}

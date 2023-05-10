@@ -1,0 +1,185 @@
+<form [formGroup]="AddProductForm">
+    <!--  (ngSubmit)="submit()"-->
+
+    <div class="pop-up">
+
+
+        <div>
+            <button mat-button [mat-dialog-close]="true" class="close-icon">
+                <mat-icon>close</mat-icon>
+            </button>
+        </div>
+
+
+
+        <div>
+            <div class="input_title">
+
+                <label for="type of house">Select the type of your house :</label>
+            </div>
+            <div>
+                <select class="form-select" aria-label="Default select example" formControlName="name" name="name" [(ngModel)]="name">
+                    <option selected>Floor </option>
+                    <option>Break</option>
+                    <option>Apartment</option>
+                    <option>Commercial land</option>
+                    <option>Agricultural land</option>
+                    <option>Building</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div>
+            <div class="input_title">
+
+                <label for="type of house">your house is for :</label>
+            </div>
+            <div>
+                <select class="form-select" aria-label="Default select example" formControlName="category" name="category" [(ngModel)]="category">
+                    <option selected>Sale </option>
+                    <option>Rent</option>
+                    <option>Exchange</option>
+
+                </select>
+            </div>
+        </div>
+
+
+
+
+
+        <div>
+            <div class="input_title">
+                <label for="Product_localisation">Product localisation :</label>
+            </div>
+
+
+            <div class="city">
+
+                <img class="city_flag" style="max-width:30px; cursor: pointer;" src={{inputFlag}}>
+                <input id="name_city" class="form-control" formControlName="location" value={{itemName}} (click)="showscrollbar()" name="location" [(ngModel)]="location" id="loc">
+            </div>
+
+
+
+            <div class="scroll" *ngIf="scroll.shown">
+                <div matPrefix *ngFor="let item of data | filter:location">
+
+                    <img id={{item.id}} class="flag" style="max-width:30px; cursor: pointer;" [src]="item.flag" alt="" />
+                    <span id={{item.id}} (click)="showItem(item)" style="cursor: pointer;">{{item.name}}</span>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <div>
+            <div class="input_title">
+                <label for="Product_space">Product space :</label>
+            </div>
+            <div>
+                <input class="form-control" formControlName="space" placeholder="m²" name="space" [(ngModel)]="space">
+            </div>
+        </div>
+
+
+
+
+        <div>
+            <div class="input_title">
+                <label for="Product_price">Product price :</label>
+            </div>
+            <div>
+                <input class="form-control" formControlName="price" placeholder="$" name="price" [(ngModel)]="price">
+            </div>
+        </div>
+
+
+
+        <div>
+            <div class="input_title">
+                <label for="phone_number">Phone number :</label>
+            </div>
+            <div>
+                <input class="form-control" formControlName="phone" name="phone" [(ngModel)]="phone">
+            </div>
+        </div>
+
+
+
+
+
+        <!--   
+        <div>
+            <div class="input_title">
+                <label for="phone_number">Add images :</label>
+            </div>
+            <div class="img">
+                <input type="file" id="file" (change)="onFileSelected($event)" name="image" class="form-control" formControlName="image" [(ngModel)]="image" accept="image/*" />
+
+            </div>
+        </div>
+
+        -->
+
+
+
+
+
+        <div>
+            <div class="input_title">
+                <label for="file">choose image:</label>
+            </div>
+            <input type="file" (change)="toBase64($event)" name="image" class="form-control" formControlName="image" [(ngModel)]="image" target="_blank" />
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="mb-3">
+            <div class="description">
+                <label for="description">Add description :</label>
+                <textarea class="form-control" id="add-description" rows="3" formControlName="description" name="description" [(ngModel)]="description"></textarea>
+
+            </div>
+        </div>
+
+
+        <!--  
+    <div>
+
+        {{myDate | date:'yyyy-MM-dd'}}
+    </div>
+
+    -->
+
+
+
+
+        <div>
+            <!--  (click)="add()"-->
+            <button class="btn" mat-raised-button color="primary" (click)="add()" mat-button [mat-dialog-close]="true">
+
+                add product
+            </button>
+        </div>
+
+
+
+    </div>
+</form>

@@ -1,0 +1,17 @@
+<mat-card>
+    <mat-card-title-group>
+        <mat-card-title>{{item.name}}</mat-card-title>
+        <mat-card-subtitle>{{item.location}}</mat-card-subtitle>
+        <mat-card-subtitle>{{myDate | date:'yyyy-MM-dd'}}</mat-card-subtitle>
+        <!--  <mat-card-subtitle>{{item.date}}</mat-card-subtitle>-->
+        <mat-card-subtitle>{{item.space}}m²</mat-card-subtitle>
+        <mat-card-subtitle><b>{{item.price}}$</b></mat-card-subtitle>
+        <img mat-card-lg-image [src]="item.image">
+
+
+    </mat-card-title-group>
+    <mat-card-content>
+
+        <!-- {{item.description}}  -->
+    </mat-card-content>
+</mat-card>

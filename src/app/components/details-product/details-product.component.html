@@ -1,0 +1,68 @@
+<div>
+    <div class="picture">
+        <img [src]="item.image" alt="">
+    </div>
+
+
+
+    <ul class="list-group">
+
+        <!-- <li class="list-group-item">{{item.name}}</li> -->
+
+        <li class="list-group-item">Type
+            <p class="type">{{item.name}}</p>
+        </li>
+
+        <li class="second_li">Location
+            <p class="location">{{item.location}}</p>
+        </li>
+
+        <!--<li class="list-group-item">Deposit date
+            <p class="date">{{item.date}}</p>
+        </li>-->
+
+        <li class="second_li">Space
+            <p class="space">{{item.space}}m²</p>
+        </li>
+
+        <li class="list-group-item">Price
+            <p class="price">{{item.price}}$</p>
+        </li>
+
+        <li class="list-group-item">category
+            <p class="category">{{item.category}}</p>
+        </li>
+
+        <div>
+            <p class="info"><i class="material-icons">info</i>Info</p>
+            <p class="info">{{item.description}}</p>
+        </div>
+
+
+
+    </ul>
+
+
+
+    <div class="list_contact">
+        <ul>
+            <li class="contact">Phone number
+                <div class="logo_phone">
+                    <p class="phone_number">{{item.phone}}</p>
+                    <i class="material-icons" id="pho">phone </i>
+                </div>
+            </li>
+
+
+            <li class="contact">Talk directly
+                <div class="logo_message"><i class="material-icons">message</i></div>
+            </li>
+
+            <li class="contact">send
+                <div class="logo_share"><i class="material-icons">share</i></div>
+            </li>
+        </ul>
+    </div>
+
+
+</div>

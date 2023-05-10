@@ -1,0 +1,21 @@
+<div class="a">
+
+    <div *ngFor="let category of cat" (click)="getcat(category.name)">
+        <app-categories [categories]="category">
+        </app-categories>
+    </div>
+
+    <br />
+    <br />
+
+
+    <div class="p" *ngFor="let item of productlistservice.productsList">
+        <app-product-card [item]="item" routerLink="/details-product/{{ item.id }}">
+        </app-product-card>
+    </div>
+
+
+
+
+
+</div>

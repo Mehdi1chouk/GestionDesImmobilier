@@ -1,0 +1,44 @@
+<mat-toolbar *ngIf="nav.visible">
+
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon routerLink="/dash">home</mat-icon>
+    </button>
+
+
+    <span routerLink="/dash" style="cursor: pointer;">Home</span>
+
+    <div class="searchIcon">
+        <mat-icon>search</mat-icon>
+    </div>
+
+
+
+
+
+    <div class="search">
+        <mat-form-field>
+            <input type="text" matInput placeholder="Search" name="term" [(ngModel)]="searchcountry">
+        </mat-form-field>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <div class="add-button">
+        <button class="btn" mat-raised-button color="primary" (click)="openDialog()">
+            <i class="material-icons">add_circle_outline</i>
+            add product
+        </button>
+    </div>
+
+
+
+
+    <span class="example-spacer"></span>

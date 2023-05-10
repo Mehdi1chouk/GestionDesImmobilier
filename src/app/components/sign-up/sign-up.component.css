@@ -1,0 +1,40 @@
+.form {
+    border: none;
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(155, 197, 180)0%);
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.login-link {
+    font-size: 1.2rem;
+    margin-left: 8px;
+}
+
+.sign-up-btn {
+    position: relative;
+    right: -160px;
+    /*margin: 30px;*/
+}
+
+.login-req {
+    position: relative;
+    right: -250px;
+    width: -600px;
+}
